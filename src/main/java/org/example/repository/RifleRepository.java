@@ -1,4 +1,7 @@
 package org.example.repository;
 
-public interface RifleRepository {
+import org.example.model.Rifle;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RifleRepository extends JpaRepository<Rifle, Long> {
 }
